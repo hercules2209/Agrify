@@ -1,4 +1,5 @@
-![Display](https://github.com/hiteshhhh007/polymorphic-hamster/assets/115102401/a44c4352-df2d-4a7d-8fcd-94ddb2fda59c)
+
+![Agrify](https://github.com/hercules2209/Agrify/assets/115102401/65eaf68c-c51b-45c1-b20e-151dc7d1f2c1)
 
 # **Agrify**  
 > **A Platform to empower farmers globally with data-driven guidance, revolutionizing agriculture practices.**
