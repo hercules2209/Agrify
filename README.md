@@ -1,5 +1,6 @@
 
-![Agrify](https://github.com/hercules2209/Agrify/assets/115102401/65eaf68c-c51b-45c1-b20e-151dc7d1f2c1)
+![Display](https://github.com/hercules2209/Agrify/assets/115102401/b79465ad-2e89-4a79-a206-55b1e4268a4d)
+
 
 # **Agrify**  
 > **A Platform to empower farmers globally with data-driven guidance, revolutionizing agriculture practices.**
