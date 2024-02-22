@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Agrify",
+    "slug": "Agrify",
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "ed730cfd-f039-4d20-b563-cfaa79e52d93"
+      }
+    }
+  },
+  "orientation": "portrait",
+  "icon": "./assets/applogo.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+    },
+    "permissions": [
+      "android.permission.RECORD_AUDIO"
+    ],
+    "package": "com.Agrify.Agrify"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "plugins": [
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "Selecct and upload images.",
+        "cameraPermission": "Allow DiseaseDet to access your camera."
+      }
+    ]
+  ],
+  "extra": {
+    "eas": {
+      "projectId": "9f95c32b-d128-4bef-a8b8-10e7a7727704"
+    }
+  },
+  "scheme": "Agrify"
+}
