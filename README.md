@@ -30,7 +30,8 @@ We selected several of the UN's 17 sustainable development goals to create our a
 
 ### **Zero Hunger**
 
-![download](https://github.com/hiteshhhh007/polymorphic-hamster/assets/115102401/8c381d8b-1840-456d-8d75-102be415ca5d)
+![download](https://github.com/hercules2209/Agrify/assets/115102401/5694825d-59e5-47f5-b630-ffa715e61f6b)
+
 
 <p>By leveraging the power of AI in the agricultural sector, which is what our application primarly does, we can make sure that there is an increase in crop yield to meet the demands of the increasing population</p>
 
