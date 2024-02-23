@@ -11,7 +11,7 @@ Agrify is a platform introduced to revolutionize farming practices in India & el
 
 Watch the product demo on:
 
-<a href="">
+<a href="https://www.youtube.com/watch?v=6lkvU-wOCSM">
     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=black""/>
   </a> 	
   
