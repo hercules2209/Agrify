@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  height:100vh; 
+
+  
+  /* background: linear-gradient(to bottom, #00ff007e, #ffffff, #03ff0394); */
+   background-image: url("https://img.freepik.com/premium-vector/abstract-pattern-background-with-futuristic-modern-style-concept_7505-2435.jpg"); 
+   
+  /* background: white; */
+}
+@media screen and (max-width: 600px){
+    .App {
+      height: 100%;
+    }
+  }
+
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15); /* Black background with 50% opacity */
+  z-index: -1;
+ }
+ 
+.loading {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}

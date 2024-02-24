@@ -1,0 +1,22 @@
+
+
+
+/* For screens with a width of 1024px or less */
+@media (max-width: 1024px) {
+    .slideContainer{
+        height:15rem
+    }
+    .slideImage {
+      background-size: cover;
+    }
+  }
+  
+  /* For screens with a width greater than 1024px */
+  @media (min-width: 1024px) {
+    .slideContainer{
+        height:780px;
+    }
+    .slideImage {
+        background-size:cover;
+      }
+  }

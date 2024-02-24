@@ -1,0 +1,43 @@
+  #Upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    padding-top: 10rem;
+  }
+  .background{
+    position: fixed;
+    height: 100vh;
+    width:100vw;
+  }
+.dropzone-container {
+    border: 2px dashed #32e750;
+    border-radius: 20px;
+    padding: 20px;
+     margin-top: 3rem;
+    margin-bottom: 30px;
+    background-color: rgba(78, 78, 78, 0.486);
+    height:30rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Vertically center child elements */
+    justify-content: space-between;
+  }
+  .dropzone-container:hover{
+    box-shadow: 10px 10px 5px rgb(22, 59, 138);
+    cursor:pointer;
+  }
+
+  
+  .dropzone-message {
+    font-size: 16px;
+    color: aliceblue;
+    font-family: Arial, sans-serif; /* Popular font */
+    font-weight: bold; /* Bold text */
+
+    align-items: center;
+  }
+  
+  
+  

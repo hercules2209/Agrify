@@ -1,0 +1,43 @@
+
+.Signup{
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 12px;
+}
+.nav-profile{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    margin-left: auto;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    img{
+        height: 2rem;
+        width: 2rem;
+        border-radius:100px;
+        margin-left: 1rem;
+    }
+   
+}
+.logo{
+    height: 2rem;
+    width: 2rem;
+    border-radius:100px;
+    margin-left: 1rem;
+}
+.navlinks:hover{
+    border:2px solid purple;
+    border-radius: 15px;
+    box-shadow: 8px 2px 5px purple;
+}
+.navLarge{
+    position: absolute;
+    left:5%;
+    width: 90%;
+    z-index: 10;
+    margin-top: 1rem;
+    border-radius: 80px;
+    opacity: 90%;
+}

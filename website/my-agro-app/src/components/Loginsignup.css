@@ -1,0 +1,23 @@
+.log-sign-main{
+    /* background-image: url("https://img.freepik.com/premium-vector/abstract-pattern-background-with-futuristic-modern-style-concept_7505-2435.jpg"); */
+    height: 100%;
+}
+.test{
+    background-image: url("https://img.freepik.com/premium-vector/abstract-pattern-background-with-futuristic-modern-style-concept_7505-2435.jpg");
+    height: 100vh;
+    z-index: -2;
+
+}
+
+.log-sign-form{
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(80vw,30rem);
+    height: 27rem;
+    /* background-image: url("https://img.freepik.com/premium-vector/abstract-pattern-background-with-futuristic-modern-style-concept_7505-2435.jpg"); */
+
+}
+.the-submit{
+    z-index: 1;
+}

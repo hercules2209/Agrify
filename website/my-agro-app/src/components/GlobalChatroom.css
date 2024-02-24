@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #117dc0;
+}
+
+
+.background{
+    background-image: url("https://img.freepik.com/premium-vector/abstract-pattern-background-with-futuristic-modern-style-concept_7505-2435.jpg"); 
+    height:70vh;
+    top:5.5rem;
+  }
+  .chatbox{
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding:10px;
+    text-align:left;
+    background-color: bisque;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  .me .chatbox{
+    background-color: cadetblue;
+  }
+  
+  .container{
+    display: flex;
+  }
+  .container.me{
+    flex-direction: row-reverse;
+  }
+  
+  .btm{
+    position: fixed;
+    width: 100%;
+    bottom: 2px;
+    display: flex;
+    flex-direction: row;
+  }
+  .btm input{
+    padding: 10px 0;
+    flex-grow: 1;
+  }
+  .btm button{
+    padding: 10px 0;
+  }
+  
+  .chat-container{
+    position: absolute;
+    top:5rem;
+    left:15rem;
+    width: 80%;
+    height: 70vh;
+    overflow-y:scroll;
+  }
+  
+  .chatFooter{
+    margin-top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .inp{
+    padding:0.5rem;
+    background: rgba(28,30,58,1);
+    border:solid 2px gray;
+    display:flex;
+    align-items: center;
+    border-radius: 2rem;
+    width: min(90vw, 68rem);
+    font-size: larger;
+    margin-top: 2rem;
+  
+  }
+  .inp>input{
+    width:calc(100% - 3rem);
+    outline:none;
+    padding:1.25rem;
+    color:white;
+  }
+  .inp>input, .send{
+    background:transparent;
+    border:none;
+    margin: 10px;
+  }
+  
+  
+  

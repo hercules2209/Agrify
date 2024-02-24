@@ -1,0 +1,87 @@
+/* Separate CSS file */
+.dashboard-container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .dashboard-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-error {
+    background-color: #f87171;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-avatar {
+    position: relative;
+  }
+  
+  .dashboard-image {
+    border: 1px solid #d1d5db;
+    border-radius: 9999px;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .dashboard-image:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .dashboard-name {
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-email {
+    margin-bottom: 16px;
+  }
+  
+  .dashboard-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .dashboard-logout {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .dashboard-link {
+    color: #2563eb;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .background-overlay{
+    background-image: url("https://img.freepik.com/premium-vector/abstract-pattern-background-with-futuristic-modern-style-concept_7505-2435.jpg");
+    height: 100vh;
+  }
+  

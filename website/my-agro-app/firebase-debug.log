@@ -1,0 +1,55 @@
+[debug] [2024-02-21T10:19:41.573Z] ----------------------------------------------------------------------
+[debug] [2024-02-21T10:19:41.575Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-21T10:19:41.576Z] CLI Version:   13.3.0
+[debug] [2024-02-21T10:19:41.576Z] Platform:      win32
+[debug] [2024-02-21T10:19:41.576Z] Node Version:  v18.16.0
+[debug] [2024-02-21T10:19:41.577Z] Time:          Wed Feb 21 2024 15:49:41 GMT+0530 (India Standard Time)
+[debug] [2024-02-21T10:19:41.577Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-21T10:19:41.581Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-02-21T10:19:41.684Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-21T10:19:41.685Z] > authorizing via signed-in user (kunalsiyag829@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\kunal\OneDrive\Desktop\my-agro-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-02-21T10:19:42.321Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-02-21T10:19:42.322Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-21T10:19:49.284Z] Using project from CLI flag: diseasedet
+[debug] [2024-02-21T10:19:49.285Z] > refreshing access token with scopes: []
+[debug] [2024-02-21T10:19:49.286Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-21T10:19:49.286Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-21T10:19:49.511Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-02-21T10:19:49.511Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-21T10:19:49.519Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/diseasedet [none]
+[debug] [2024-02-21T10:19:49.972Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/diseasedet 200
+[debug] [2024-02-21T10:19:49.972Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/diseasedet {"projectId":"diseasedet","projectNumber":"1062062460810","displayName":"DiseaseDet","name":"projects/diseasedet","resources":{"hostingSite":"diseasedet","realtimeDatabaseInstance":"diseasedet-default-rtdb","storageBucket":"diseasedet.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_d4c67d65-edcf-4347-abcd-db7cc07e5e1b"}
+[info] i  Using project diseasedet (DiseaseDet) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-21T10:19:49.979Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/diseasedet [none]
+[debug] [2024-02-21T10:19:50.503Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/diseasedet 200
+[debug] [2024-02-21T10:19:50.503Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/diseasedet {"projectId":"diseasedet","projectNumber":"1062062460810","displayName":"DiseaseDet","name":"projects/diseasedet","resources":{"hostingSite":"diseasedet","realtimeDatabaseInstance":"diseasedet-default-rtdb","storageBucket":"diseasedet.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_d4c67d65-edcf-4347-abcd-db7cc07e5e1b"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
